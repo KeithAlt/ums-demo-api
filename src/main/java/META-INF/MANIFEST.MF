@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: C:\Users\Admin\IdeaProjects\usermanager\src\main\java\com\mi
+ crofocus\demo\usermanager\UsermanagerApplication.java
+
