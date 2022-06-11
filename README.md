@@ -1,1 +1,1 @@
-A demo front using Angular, Spring, & Bootstrap
+A demo CRUD API made using Java, Maven, & Spring
