@@ -1,1 +1,1 @@
-# com-microfocus-demo-web
+A demo front using Angular, Spring, & Bootstrap
