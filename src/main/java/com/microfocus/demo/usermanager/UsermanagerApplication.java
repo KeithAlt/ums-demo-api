@@ -19,7 +19,7 @@ public class UsermanagerApplication {
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.setAllowedOrigins(Arrays.asList("http://71.56.13.71:4200")); // TODO: Change to envvar
+		corsConfiguration.setAllowedOrigins(Arrays.asList("https://microfocus-demo-web.vercel.app")); // TODO: Change to envvar
 		corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
 				"Accept", "Authorization", "Origin, Accept", "X-Requested-With",
 				"Access-Control-Request-Method", "Access-Control-Request-Headers"));
