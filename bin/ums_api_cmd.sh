@@ -1,0 +1,1 @@
+java -jar ./UMS_API.jar
