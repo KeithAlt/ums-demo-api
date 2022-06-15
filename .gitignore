@@ -34,5 +34,5 @@ build/
 target/
 
 ### SSL ###
-./ssl/keys/*
-./bin/ssl/keys/*
+/ssl/keys/*
+/bin/ssl/keys/*
