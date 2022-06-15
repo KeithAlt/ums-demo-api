@@ -1,0 +1,13 @@
+# IMPORTANT
+It is required that you generate a self-signed SSL key for this application to work.
+This is strictly due to the public nature of this repository.
+
+# REQUIREMENTS
+- JRE keytool utility
+
+# RUN THE FOLLOWING ON THE PRODUCTION SYSTEM:
+$ keytool -genkeypair -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore mkyong.p12 -validity 365
+
+# WARNING
+Ensure that the self signed key generated is matches the configuration of the application.
+Ensure the key is placed within './ssl/keys' directory for the application to launch as intended.
