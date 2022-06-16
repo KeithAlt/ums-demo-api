@@ -32,3 +32,7 @@ build/
 
 ### JUNK ###
 target/
+
+### SSL ###
+/ssl/keys/mkyong.p12
+/bin/ssl/keys/mkyong.p12
